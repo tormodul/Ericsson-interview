@@ -1,0 +1,12 @@
+2025-08-30 11:55:01 INFO: Application startup sequence initiated.
+2025-08-30 11:55:02 INFO: Connecting to database 'prod_db' on host 'db.internal.net'.
+2025-08-30 11:55:03 WARN: Database connection is slow. Response time: 1.2s.
+2025-08-30 11:55:04 ERROR: Failed to connect to payment gateway. Reason: Connection timed out. Error code is ERR-1234.
+2025-08-30 11:55:05 INFO: User 'admin' logged in successfully from IP 192.168.1.10.
+2025-08-30 11:55:06 ERROR: User authentication failed for user 'guest'. Please check credentials. Status code: 401.
+2025-08-30 11:55:07 ERROR: An internal server exception occurred during transaction processing. Details: NullPointerException. The system returned error 500.
+2025-08-30 11:55:08 INFO: Processing batch job #556.
+2025-08-30 11:55:09 ERROR: Disk space is critically low. Hexadecimal fault code: 0x1F4. Please investigate immediately.
+2025-08-30 11:55:10 WARN: API endpoint /api/v1/status is deprecated and will be removed in a future version.
+2025-08-30 11:55:11 ERROR: Duplicate entry found for key 'PRIMARY'. This is a repeat of ERR-1234.
+2025-08-30 11:55:12 FATAL: System shutting down due to unrecoverable error. Code: E:9001.
