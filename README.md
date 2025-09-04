@@ -18,6 +18,6 @@ uv add python-dotenv langgraph "langchain[google-genai]" langsmith ipykernel fai
 create a .env file and add the following variables 
 
 ```env
-GOOGLE_GENAI_API_KEY=your_google_genai_api_key"
+GOOGLE_API_KEY=your_google_genai_api_key"
 ````
 
